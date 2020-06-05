@@ -26,7 +26,8 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
+    
 }
 body {
 	line-height: 1;
@@ -46,9 +47,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+* { 
+    outl ine: 1px solid red;
+    outl ine-offset: -1px;
+  }
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -143,4 +148,92 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.top{
+    display:flex;
+    margin-top: 1.5%;
+    margin-bottom:3%;
+
+      
+}
+#nav {
+    display:flex;
+    list-style-type:none;
+    justify-content: space-around;
+    
+}
+#links{
+    display:flex;
+    width:90%;
+    justify-content: space-around;
+    align-items: flex-end;
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+#top{
+    margin-bottom:2%;
+}
+#box1{
+    background:teal;
+}
+#box2{
+    background:gold;
+}
+#box3{
+    background:cadetblue;
+}
+#box4{
+    background:coral;
+}
+#box5{
+    background:crimson;
+}
+#box6{
+    background:forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background:hotpink;
+}
+#box9{
+    background:indigo;
+}
+#box10{
+    background:dodgerblue;
+}
+.bot {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.textbox{
+    display:flex;
+    flex-direction: column;
+    margin-right:5%
+}
+.topbox{
+    display:flex;
+    
+}
+.link{
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #black;
+    position: relative;
+    border: 2px solid #000;
+    width:35%;
+    margin-bottom:4%;
+    margin-top:3%;
+}
+.work{
+    margin-bottom:5%;
+}
+.pic{
+    margin-top:7%;
+    margin-bottom:3%    
 }
