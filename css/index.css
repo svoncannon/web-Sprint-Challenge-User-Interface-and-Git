@@ -47,7 +47,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+* { 
+    outl ine: 1px solid red;
+    outl ine-offset: -1px;
+  }
 * {
     box-sizing: border-box;
     
@@ -201,4 +204,36 @@ a{
 }
 #box10{
     background:dodgerblue;
+}
+.bot {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.textbox{
+    display:flex;
+    flex-direction: column;
+    margin-right:5%
+}
+.topbox{
+    display:flex;
+    
+}
+.link{
+    background: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #black;
+    position: relative;
+    border: 2px solid #000;
+    width:35%;
+    margin-bottom:4%;
+    margin-top:3%;
+}
+.work{
+    margin-bottom:5%;
+}
+.pic{
+    margin-top:7%;
+    margin-bottom:3%    
 }
